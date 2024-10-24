@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 1: Introduction to Python</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 3px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Experiment 1: Introduction to Python</h1>
+
+<h2>Objective</h2>
+<p>Install Python and set up the development environment.</p>
+
+<h2>Tasks</h2>
+
+<h3>1. Install Python and an IDE</h3>
+<p><strong>Step 1: Download Python</strong></p>
+<ul>
+    <li>Go to the <a href="https://www.python.org/downloads/" target="_blank">official Python website</a>.</li>
+    <li>Download the latest version of Python for your operating system (Windows, macOS, or Linux).</li>
+    <li>Make sure to check the box that says "Add Python to PATH" during installation.</li>
+</ul>
+
+<p><strong>Step 2: Install an IDE</strong></p>
+<p>Choose one of the following:</p>
+<ul>
+    <li><strong>PyCharm</strong>
+        <ul>
+            <li>Download from <a href="https://www.jetbrains.com/pycharm/download/" target="_blank">JetBrains PyCharm</a>.</li>
+            <li>Install the Community edition (free).</li>
+        </ul>
+    </li>
+    <li><strong>VSCode</strong>
+        <ul>
+            <li>Download from <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>.</li>
+            <li>Follow the installation instructions, and consider installing the Python extension from the Extensions Marketplace.</li>
+        </ul>
+    </li>
+    <li><strong>Jupyter Notebook</strong>
+        <ul>
+            <li>If you prefer Jupyter, you can install it via Anaconda (<a href="https://www.anaconda.com/products/distribution" target="_blank">Anaconda Distribution</a>) or directly using pip:</li>
+            <pre><code>pip install notebook</code></pre>
+        </ul>
+    </li>
+</ul>
+
+<h3>2. Write and Run a Simple "Hello, World!" Program</h3>
+<p>Using your chosen IDE:</p>
+<ul>
+    <li>Open your IDE.</li>
+    <li>Create a new Python file (e.g., <code>hello.py</code>).</li>
+    <li>Write the following code:</li>
+    <pre><code>print("Hello, World!")</code></pre>
+    <li>Save the file and run the program.</li>
+    <ul>
+        <li><strong>In PyCharm</strong>: Right-click the file and select "Run".</li>
+        <li><strong>In VSCode</strong>: Open the terminal and type <code>python hello.py</code>.</li>
+        <li><strong>In Jupyter Notebook</strong>: Create a new notebook cell and run the code.</li>
+    </ul>
+</ul>
+
+<h3>3. Understand and Demonstrate Basic Python Syntax and Semantics</h3>
+<p><strong>Basic Concepts to Explore:</strong></p>
+
+<ul>
+    <li><strong>Variables and Data Types</strong>
+        <pre><code>name = "Alice"  # String
+age = 25        # Integer
+height = 5.5    # Float
+is_student = True  # Boolean
+</code></pre>
+    </li>
+
+    <li><strong>Basic Operations</strong>
+        <pre><code>a = 10
+b = 5
+sum_result = a + b  # Addition
+</code></pre>
+    </li>
+
+    <li><strong>Control Structures</strong>
+        <pre><code># If statement
+if age >= 18:
+    print("Adult")
+else:
+    print("Minor")
+
+# For loop
+for i in range(5):
+    print(i)
+</code></pre>
+    </li>
+
+    <li><strong>Functions</strong>
+        <pre><code>def greet(person):
+    return f"Hello, {person}!"
+
+print(greet("Alice"))
+</code></pre>
+    </li>
+</ul>
+
+<h2>Conclusion</h2>
+<p>You've successfully installed Python and an IDE, run a basic program, and explored some fundamental concepts of Python programming. This sets a solid foundation for further experimentation and learning in Python!</p>
+
+</body>
+</html>
